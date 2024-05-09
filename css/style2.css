@@ -81,6 +81,9 @@ header ul li{
   color: #fff;
   background: #002967;
 }
+.primary_btn1{
+  border: 1px solid #fff !important;
+}
 .primary_btn:hover{
   transition: 0.5s;
   color: #fff;
@@ -713,6 +716,9 @@ p{
  .banner_video1::before{
   background:linear-gradient(370.26deg, #b01f23ed 0%, rgb(0 41 103 / 99%) 99%) !important;
  }
+ .banner_video2::before{
+  background:linear-gradient(300deg,  rgb(0 41 103 / 97%) 10%, rgb(0 41 103 / 99%) 20%, #b01f23ed 60%,#b01f23ed 40%);
+ }
  .banner_inner{
   width: 100%;
  }
@@ -1037,7 +1043,7 @@ p{
 }
 .about-company{
   align-items: center;
-  margin-top: 20px;
+  margin-top: 40px;
   margin-bottom: 20px;
 }
 .about-company p{
